@@ -1,0 +1,1515 @@
+{
+  "title": "Sequential Circuits",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "Sequential Circuits",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "By Dr. Arun Kishor Johar",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Outline",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Introduction to Sequential Circuits",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Classification of Sequential Circuits",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Memory Elements",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Types of Flip Flop",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Applications of Flip Flops",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Conversion of Flip Flops",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Counters",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Asynchronous Counter Design",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Synchronous Counter Design",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "What is Sequential Circuit?",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "The outputs depend on the current  and past input values",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "It uses logic gates and storage elements",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "Example",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "Vending machine",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "They are referred as finite state machines since they have a finite number of",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "states",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "Introduction to Sequential Circuits",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "Sequential Circuits Types",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "Synchronous",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "The circuit behavior is determined by the signals at discrete instants of time",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "The memory elements are affected only at discrete instants of time",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "A clock is used for synchronization",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "Memory elements are affected only with the arrival of a clock pulse",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "If memory elements use clock pulses in their inputs, the circuit is called",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "Clocked sequential circuit",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "Asynchronous",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "The circuit behavior is determined by the signals at any instant of time",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "It is also affected by the order the inputs change",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "Flip-Flops",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Latches",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "They are memory elements",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "They can store binary information",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Can keep a binary state until an input signal to switch the state is received",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "There are different types of flip-flops depending on the number of inputs",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "and how the inputs affect the binary state",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "The most basic flip-flops and operated with signal levels",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "The flip-flops are constructed from latches",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "They are not useful for",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "synchronous",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "sequential circuits",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "They are useful for",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "asynchronous",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Memory Elements",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Based on their operations, flip flops are basically 4 types.",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "1. R-S flip flop",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "2. D flip flop",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "3. J-K flip flop",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "4. T flip flop",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "Types of Flip Flops",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Working",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "From the above truth table it is clear that SR flip flop will be set or reset for four conditions.",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "• For last condition it will be in invalid state.",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "• SR Flip-flop will be set when S=1 and R=0, if S=1 and R=1 then previous state is remembered by",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "the flip flop.",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "• Flip-flop will be reset when S=0 and R=1, if S=1 and R=1, then it will remember the previous",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "state.",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "• But when both the inputs are zeros, SR Flip flop will be in an uncertain state where both Q and Q’",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "will be same. This is not same allowed..",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "SR Flip Flop",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Truth table",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "JK Flip Flop",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Truth table",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Working",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "• When J is low and K is low, then Q returns its previous state value i.e. it holds the current state.",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "• When J is low and K is high, then flip – flop will be in reset state i.e. Q = 0, Q’ =1.",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "• When J is high and K is low then flip – flop will be in set state i.e. Q = 1, Q’ =0.",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "• When J is high and K is high then flip – flop will be in Toggle state or flip state. This means that",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "the output will complement to the previous state value.",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "D Flip Flop",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Truth table",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "Working",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "• D flip flop will work depending on the clock signal.",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "• When the clock is low there will be no change in the output of the flip flop i.e. it remembers",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "the previous state.",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "• When the clock signal is high and if it receives any data on its data pin, it Changes the state",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "of output.",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "• When data is high Q reset to 0,while Q is set to 0 if data is low.",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "T Flip Flop",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Truth table",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "Working",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "• When the T input is low, then the next sate of the T flip – flop is same as the present state i.e. it",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "holds the current state.",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "• T = 0 and present state = 0 then the next state = 0.",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "• T = 0 and present state = 1 then the next state = 1.",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "• When the T input is high, then the next sate of the T flip – flop is toggled i.e. it is same as the",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "complement of present state on clock transition.",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "• T = 1 and present state = 0 then the next state = 1.",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "• T = 1 and present state = 1 then the next state = 0.",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "Flip flops are widely used in:",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Registers: As the flip flops have two stable states, we use them in memory elements like",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "registers, for data storage. Generally we use registers in electronic devices like computers.",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Counters: The groups of interconnected flip flops are uses as counters, to count the increment or",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "decrement of an event occurrence.",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Frequency division: Flip flops are used as frequency division circuits, which divide the input",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "frequency to exactly to its half. Frequency division circuits are used to regularize the frequency",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "of electronic circuits.",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Data transfer: We use shift registers (A special-type of registers) to transfer the data from one",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "flip flop to another, which are connected in a specific order.",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": "Applications of Flip Flops",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Step 1: Write the Truth Table of the Desired Flip-Flop",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "Step 2: Obtain the Excitation Table for the given Flip-Flop from its Truth Table",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "Step 3: Append the Excitation Table of the given Flip-Flop to the Truth Table of the Desired Flip-Flop",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "Appropriately to obtain Conversion Table",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "Step 4: Simplify the Expressions for the Inputs of the given Flip-Flop",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "Step 5: Design the Necessary Circuit and make the Connections accordingly",
+      "page": 12
+    },
+    {
+      "level": "H1",
+      "text": "Conversion of Flip Flops",
+      "page": 12
+    },
+    {
+      "level": "H1",
+      "text": "Conversion of SR to JK Flip Flop",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "Conversion of SR to D Flip Flop",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "Conversion of SR to T Flip Flop",
+      "page": 15
+    },
+    {
+      "level": "H1",
+      "text": "Conversion of D to JK Flip Flop",
+      "page": 16
+    },
+    {
+      "level": "H1",
+      "text": "Conversion of D to SR Flip Flop",
+      "page": 17
+    },
+    {
+      "level": "H1",
+      "text": "Conversion of D to T Flip Flop",
+      "page": 18
+    },
+    {
+      "level": "H1",
+      "text": "Conversion of T to JK Flip Flop",
+      "page": 19
+    },
+    {
+      "level": "H1",
+      "text": "Conversion of T to SR Flip Flop",
+      "page": 20
+    },
+    {
+      "level": "H1",
+      "text": "Conversion of T to SR Flip Flop",
+      "page": 21
+    },
+    {
+      "level": "H1",
+      "text": "Counters",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "By Dr. Arun Kishor Johar",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "Introduction",
+      "page": 23
+    },
+    {
+      "level": "H1",
+      "text": "Counter is a digital device and the output of the counter includes a",
+      "page": 23
+    },
+    {
+      "level": "H1",
+      "text": "predefined state based on the clock pulse applications.",
+      "page": 23
+    },
+    {
+      "level": "H1",
+      "text": "The output of the counter can be used to count the number of pulses.",
+      "page": 23
+    },
+    {
+      "level": "H1",
+      "text": "Two types of counter",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "Synchronous counter (e.g. parallel)",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "Asynchronous counter (e.g. ripple)",
+      "page": 23
+    },
+    {
+      "level": "H1",
+      "text": "Ripple counter let some flip-flop output to be used as clock signal source",
+      "page": 23
+    },
+    {
+      "level": "H1",
+      "text": "for other flip-flop",
+      "page": 23
+    },
+    {
+      "level": "H1",
+      "text": "Synchronous counter use the same clock signal for all flip-flop",
+      "page": 23
+    },
+    {
+      "level": "H1",
+      "text": "Asynchronous",
+      "page": 24
+    },
+    {
+      "level": "H1",
+      "text": "Counters",
+      "page": 24
+    },
+    {
+      "level": "H1",
+      "text": "Asynchronous Counters",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "Only the first flip-flop is clocked by an external clock. All subsequent flip-",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "flops are clocked by the output of the preceding flip-flop.",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "Asynchronous counters are slower than synchronous counters because",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "of the delay in the transmission of the pulses from flip-flop to flip-flop.",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "Asynchronous counters are also called",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "ripple-counters",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "because of the",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "way the clock pulse ripples it way through the flip-flops.",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "Example: 2-bit ripple counter",
+      "page": 26
+    },
+    {
+      "level": "H1",
+      "text": "Output from one flip-flop is connected to clock input for the next flip-flop",
+      "page": 26
+    },
+    {
+      "level": "H1",
+      "text": "MSB",
+      "page": 26
+    },
+    {
+      "level": "H1",
+      "text": "Asynchronous Counters",
+      "page": 26
+    },
+    {
+      "level": "H1",
+      "text": "States / Modulus / Flip-Flops",
+      "page": 27
+    },
+    {
+      "level": "H1",
+      "text": "The number of flip-flops determines the count limit or number",
+      "page": 27
+    },
+    {
+      "level": "H1",
+      "text": "of states.",
+      "page": 27
+    },
+    {
+      "level": "H1",
+      "text": "(STATES = 2",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "# of flip flops",
+      "page": 27
+    },
+    {
+      "level": "H1",
+      "text": "The number of states used is called the",
+      "page": 27
+    },
+    {
+      "level": "H1",
+      "text": "MODULUS.",
+      "page": 27
+    },
+    {
+      "level": "H1",
+      "text": "For example, a Modulus-12 counter would count from 0",
+      "page": 27
+    },
+    {
+      "level": "H1",
+      "text": "(0000) to 11 (1011) and requires four flip-flops (16 states  - 12",
+      "page": 27
+    },
+    {
+      "level": "H1",
+      "text": "used).",
+      "page": 27
+    },
+    {
+      "level": "H1",
+      "text": "1 Bit Asynchronous-Counter / Modulus 2",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "Advantages",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Disadvantages",
+      "page": 29
+    },
+    {
+      "level": "H1",
+      "text": "Asynchronous Counters",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Applications of Asynchronous Counters",
+      "page": 30
+    },
+    {
+      "level": "H1",
+      "text": "Asynchronous Counters",
+      "page": 30
+    },
+    {
+      "level": "H1",
+      "text": "Asynchronous Counter Design Steps",
+      "page": 31
+    },
+    {
+      "level": "H1",
+      "text": "Select Type",
+      "page": 31
+    },
+    {
+      "level": "H1",
+      "text": "Select Flip-Flop Type",
+      "page": 31
+    },
+    {
+      "level": "H1",
+      "text": "Determine Number of Flip-Flops",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "# Flip-Flop",
+      "page": 31
+    },
+    {
+      "level": "H1",
+      "text": "Design Basic Counters",
+      "page": 31
+    },
+    {
+      "level": "H1",
+      "text": "Design Limits Logic",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "NET",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "PET or Q",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "PET",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "NET or Q",
+      "page": 31
+    },
+    {
+      "level": "H1",
+      "text": "Design Example",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "Select Type",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "Select Flip-Flop Type",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "Determine Number of Flip-Flops",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "# Flip-Flop",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "Modules)",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "Design Basic Counters",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "Design Limits Logic",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "MOD – 14 (0..13)",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "NET",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "PET or Q",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "PET",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "NET or Q",
+      "page": 32
+    },
+    {
+      "level": "H1",
+      "text": "2 Bit Asynchronous Counter / Modulus 4",
+      "page": 33
+    },
+    {
+      "level": "H1",
+      "text": "3 Bit Asynchronous Counter / Modulus 8",
+      "page": 34
+    },
+    {
+      "level": "H1",
+      "text": "The Ripple Effect…",
+      "page": 35
+    },
+    {
+      "level": "H1",
+      "text": "Ripple Effect…The Problem",
+      "page": 36
+    },
+    {
+      "level": "H1",
+      "text": "Six Examples",
+      "page": 37
+    },
+    {
+      "level": "H1",
+      "text": "Modulus 4 Up Counter with Negative Edge Triggered Flip-Flops",
+      "page": 37
+    },
+    {
+      "level": "H1",
+      "text": "Modulus 4 Down Counter with Negative Edge Triggered Flip-Flops",
+      "page": 37
+    },
+    {
+      "level": "H1",
+      "text": "Modulus 4 Up Counter with Positive Edge Triggered Flip-Flops",
+      "page": 37
+    },
+    {
+      "level": "H1",
+      "text": "Modulus 4 Down Counter with Positive Edge Triggered Flip-Flops",
+      "page": 37
+    },
+    {
+      "level": "H1",
+      "text": "Truncated Counter",
+      "page": 37
+    },
+    {
+      "level": "H1",
+      "text": "Counter Design",
+      "page": 37
+    },
+    {
+      "level": "H1",
+      "text": "Up Counter with Negative Edge Triggered Flip-Flops",
+      "page": 38
+    },
+    {
+      "level": "H1",
+      "text": "Down Counter with Negative Edge Triggered Flip-Flops",
+      "page": 39
+    },
+    {
+      "level": "H1",
+      "text": "Up Counter with Positive Edge Triggered Flip-Flops",
+      "page": 40
+    },
+    {
+      "level": "H1",
+      "text": "Down Counter with Positive Edge Triggered Flip-Flops",
+      "page": 41
+    },
+    {
+      "level": "H1",
+      "text": "Truncating the Count… Modulus 6",
+      "page": 42
+    },
+    {
+      "level": "H1",
+      "text": "Modulus-6 Counter",
+      "page": 43
+    },
+    {
+      "level": "H1",
+      "text": "Design Example…Solution",
+      "page": 44
+    },
+    {
+      "level": "H1",
+      "text": "Synchronous Counters",
+      "page": 45
+    },
+    {
+      "level": "H1",
+      "text": "Synchronous Counters",
+      "page": 46
+    },
+    {
+      "level": "H1",
+      "text": "All flip-flops are clocked simultaneously by an external clock.",
+      "page": 46
+    },
+    {
+      "level": "H1",
+      "text": "Synchronous counters are faster than asynchronous counters because of",
+      "page": 46
+    },
+    {
+      "level": "H1",
+      "text": "the simultaneous clocking.",
+      "page": 46
+    },
+    {
+      "level": "H1",
+      "text": "Synchronous counters are an example of",
+      "page": 46
+    },
+    {
+      "level": "H1",
+      "text": "state machine",
+      "page": 46
+    },
+    {
+      "level": "H1",
+      "text": "design because",
+      "page": 46
+    },
+    {
+      "level": "H1",
+      "text": "they have a set of states and a set of transition rules for moving between",
+      "page": 46
+    },
+    {
+      "level": "H1",
+      "text": "those states after each clocked event.",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "Advantages / Disadvantages of Synchronous Counters",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "Very easy to design this circuit because of the same clock pulse for all the flipflops.",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "Less likely to end up in erroneous states.",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "They are faster as the propagation delay are small as compared to asynchronous",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "counters.",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "There are no counting errors as compared to asynchronous counters.",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "Performance is much better, liable and portable circuit.",
+      "page": 47
+    },
+    {
+      "level": "H1",
+      "text": "Synchronous Counters",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "Applications of Synchronous Counters",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "Alarm Clock, Set AC Timer, Set time in camera to take the picture, flashing light indicator in",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "automobiles, car parking control etc.",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "Counting the time allotted for special process or event by the scheduler.",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "The UP/DOWN counter can be used as a self-reversing counter.",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "It is also used as clock divider circuit.",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "Commons used in home appliances like washing machine, microwave own, Time schedule led",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "indicator, key board controller etc.",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "They are used to generate saw-tooth waveform (Stair case voltage)",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "It is also used in digital to analog converters.",
+      "page": 48
+    },
+    {
+      "level": "H1",
+      "text": "Synchronous Counters",
+      "page": 48
+    },
+    {
+      "level": "H1",
+      "text": "Synchronous Counter (Parallel) Design Steps",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "Determine the number of FFs needed to support the counting sequence’s highest number.",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "-1 ≥ Highest number",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "2. Build a State Transition Diagram. Be sure to include all states.",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "3. Build a State/Excitation Truth Table.",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "4. Simplify expressions for J and K inputs for each F/F on K-Maps.",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "5. Implement the Synchronous Counter/State Machine Circuit.",
+      "page": 49
+    },
+    {
+      "level": "H1",
+      "text": "Synchronous Counter (Parallel)",
+      "page": 50
+    },
+    {
+      "level": "H1",
+      "text": "Example: 2-bit synchronous binary counter (using T flip-flop or JK)",
+      "page": 50
+    },
+    {
+      "level": "H3",
+      "text": "Present State",
+      "page": 50
+    },
+    {
+      "level": "H3",
+      "text": "Next State",
+      "page": 50
+    },
+    {
+      "level": "H3",
+      "text": "Flip-flop Inputs",
+      "page": 50
+    },
+    {
+      "level": "H1",
+      "text": "Synchronous Counter (Parallel)",
+      "page": 51
+    },
+    {
+      "level": "H1",
+      "text": "Example: 2-bit synchronous binary counter (using T flip-flop or JK) cont….",
+      "page": 51
+    },
+    {
+      "level": "H3",
+      "text": "Present State",
+      "page": 51
+    },
+    {
+      "level": "H3",
+      "text": "Next State",
+      "page": 51
+    },
+    {
+      "level": "H3",
+      "text": "Flip-flop Inputs",
+      "page": 51
+    },
+    {
+      "level": "H1",
+      "text": "Synchronous Counter (Parallel)",
+      "page": 52
+    },
+    {
+      "level": "H1",
+      "text": "Example: 3-bit synchronous binary counter (using T flip-flop or JK) cont….",
+      "page": 52
+    },
+    {
+      "level": "H3",
+      "text": "Present State",
+      "page": 52
+    },
+    {
+      "level": "H3",
+      "text": "Next State",
+      "page": 52
+    },
+    {
+      "level": "H3",
+      "text": "Flip-flop Inputs",
+      "page": 52
+    },
+    {
+      "level": "H1",
+      "text": "Synchronous Counter (Parallel)",
+      "page": 53
+    },
+    {
+      "level": "H1",
+      "text": "Example: 3-bit synchronous binary counter (using T flip-flop or JK) cont….",
+      "page": 53
+    },
+    {
+      "level": "H1",
+      "text": "Designing Synchronous Counter",
+      "page": 54
+    },
+    {
+      "level": "H1",
+      "text": "Example: 3-bit Gray Code Counter (using JK flip-flop)",
+      "page": 54
+    },
+    {
+      "level": "H3",
+      "text": "Present",
+      "page": 54
+    },
+    {
+      "level": "H3",
+      "text": "State",
+      "page": 54
+    },
+    {
+      "level": "H3",
+      "text": "Next State",
+      "page": 54
+    },
+    {
+      "level": "H3",
+      "text": "Flip-flop Inputs",
+      "page": 54
+    },
+    {
+      "level": "H3",
+      "text": "1+1",
+      "page": 54
+    },
+    {
+      "level": "H3",
+      "text": "100",
+      "page": 54
+    },
+    {
+      "level": "H3",
+      "text": "111",
+      "page": 54
+    },
+    {
+      "level": "H3",
+      "text": "101",
+      "page": 54
+    },
+    {
+      "level": "H3",
+      "text": "000",
+      "page": 54
+    },
+    {
+      "level": "H3",
+      "text": "010",
+      "page": 54
+    },
+    {
+      "level": "H3",
+      "text": "110",
+      "page": 54
+    },
+    {
+      "level": "H3",
+      "text": "011",
+      "page": 54
+    },
+    {
+      "level": "H3",
+      "text": "001",
+      "page": 54
+    },
+    {
+      "level": "H1",
+      "text": "Designing Synchronous Counter",
+      "page": 55
+    },
+    {
+      "level": "H1",
+      "text": "3-bit Gray Code Counter: flip-flop input",
+      "page": 55
+    },
+    {
+      "level": "H1",
+      "text": "BCD Synchronous Counter (Parallel)",
+      "page": 56
+    },
+    {
+      "level": "H1",
+      "text": "Example: BCD Synchronous Counter",
+      "page": 56
+    },
+    {
+      "level": "H3",
+      "text": "Clock",
+      "page": 56
+    },
+    {
+      "level": "H3",
+      "text": "Pulse",
+      "page": 56
+    },
+    {
+      "level": "H3",
+      "text": "Present State",
+      "page": 56
+    },
+    {
+      "level": "H3",
+      "text": "Next State",
+      "page": 56
+    },
+    {
+      "level": "H3",
+      "text": "Flip Flops Input",
+      "page": 56
+    },
+    {
+      "level": "H3",
+      "text": "3+1",
+      "page": 56
+    },
+    {
+      "level": "H3",
+      "text": "2+1",
+      "page": 56
+    },
+    {
+      "level": "H3",
+      "text": "1+1",
+      "page": 56
+    },
+    {
+      "level": "H3",
+      "text": "0+1",
+      "page": 56
+    },
+    {
+      "level": "H1",
+      "text": "BCD Synchronous Counter (Parallel)",
+      "page": 57
+    },
+    {
+      "level": "H1",
+      "text": "Example: BCD Synchronous Counter",
+      "page": 57
+    },
+    {
+      "level": "H1",
+      "text": "Up/Down Synchronous Counter (Parallel)",
+      "page": 58
+    },
+    {
+      "level": "H1",
+      "text": "Up/Down Synchronous Counter: two way counter which able to count up or",
+      "page": 58
+    },
+    {
+      "level": "H1",
+      "text": "down",
+      "page": 58
+    },
+    {
+      "level": "H1",
+      "text": "Up/Down control input line which determine the counter",
+      "page": 58
+    },
+    {
+      "level": "H2",
+      "text": "Up/Down = 1 (count up)",
+      "page": 58
+    },
+    {
+      "level": "H2",
+      "text": "Up/Down = 0 (count down)",
+      "page": 58
+    },
+    {
+      "level": "H1",
+      "text": "Up/Down Synchronous Counter (Parallel)",
+      "page": 59
+    },
+    {
+      "level": "H1",
+      "text": "Example: 3-bit Up/Down Synchronous Counter",
+      "page": 59
+    },
+    {
+      "level": "H3",
+      "text": "Clock",
+      "page": 59
+    },
+    {
+      "level": "H3",
+      "text": "Pulse",
+      "page": 59
+    },
+    {
+      "level": "H3",
+      "text": "Down",
+      "page": 59
+    },
+    {
+      "level": "H3",
+      "text": ". 𝑈𝑃 + (𝑄",
+      "page": 59
+    },
+    {
+      "level": "H3",
+      "text": "UP Counter",
+      "page": 59
+    },
+    {
+      "level": "H3",
+      "text": "Down Counter",
+      "page": 59
+    },
+    {
+      "level": "H1",
+      "text": "Up/Down Synchronous Counter (Parallel)",
+      "page": 60
+    },
+    {
+      "level": "H1",
+      "text": "Example: 3-bit Up/Down Synchronous Counter (cont)",
+      "page": 60
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "title": "Introduction to Cybersecurity and Screen Readers",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "Introduction to Cybersecurity and Screen Readers",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Component name and description",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "How it interacts",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Accordion",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Flipcard",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Graphic",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Hotgraphic",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Media",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Narrative",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Text",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Open",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "text",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "input",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Component name and description",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "How it interacts",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Fill",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "the",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "blanks",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Graphical",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Multiple",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Choice",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Question",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Matching",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Question",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Multiple",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Choice",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Slider",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Stacker",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Yes/No",
+      "page": 8
+    }
+  ]
+}

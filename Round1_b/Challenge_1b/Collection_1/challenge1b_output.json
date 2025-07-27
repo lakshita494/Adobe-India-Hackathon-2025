@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "input_documents": [
+      "PDFs/Drug Discovery 1.pdf",
+      "PDFs/Drug Discovery 3.pdf",
+      "PDFs/Drug Discovery 3.pdf",
+      "PDFs/Drug Discovery 4.pdf"
+    ],
+    "persona": "Pharmaceutical Researcher",
+    "job": "Research and analyze drug discovery methodologies and processes",
+    "timestamp": "2025-07-27T10:38:30.139444"
+  },
+  "extracted_sections": [
+    {
+      "document": "PDFs/Drug Discovery 1.pdf",
+      "page": 1,
+      "section_title": "Auto Section Title",
+      "importance_rank": 1
+    },
+    {
+      "document": "PDFs/Drug Discovery 3.pdf",
+      "page": 1,
+      "section_title": "Auto Section Title",
+      "importance_rank": 1
+    },
+    {
+      "document": "PDFs/Drug Discovery 3.pdf",
+      "page": 1,
+      "section_title": "Auto Section Title",
+      "importance_rank": 1
+    },
+    {
+      "document": "PDFs/Drug Discovery 4.pdf",
+      "page": 1,
+      "section_title": "Auto Section Title",
+      "importance_rank": 1
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "PDFs/Drug Discovery 1.pdf",
+      "refined_text": "Graph Convolutional Networks for Drug\nResponse Prediction\nTuan Nguyen\n, Giang T. T. Nguyen\n, Thin Nguyen\n, and Duc-Hau Le\nAbstract\u2014Background: Drug response prediction is an important problem in computational personalized medicine. Many machine-\nlearning-based methods, especially deep learning-based ones, have been proposed for this task. However, these methods often\nrepresent the drugs as strings, which are not a natural way to depict molecules. Also, interpretation (e.g., what are the mutation",
+      "page": 1
+    },
+    {
+      "document": "PDFs/Drug Discovery 3.pdf",
+      "refined_text": "Reliable Graph Neural Networks for Drug Discovery\nUnder Distributional Shift\nKehang Han \u2217\u2020\nGoogle Research\nkehanghan@google.com\nBalaji Lakshminarayanan\nGoogle Research\nbalajiln@google.com\nJeremiah Liu \u2020\nGoogle Research\njereliu@google.com\nAbstract\nThe concern of overcon\ufb01dent mispredictions under distributional shift demands\nextensive reliability research on Graph Neural Networks used in critical tasks\nin drug discovery. Here we \ufb01rst introduce CardioTox, a real-world benchmark\non drug cardiotoxici",
+      "page": 1
+    },
+    {
+      "document": "PDFs/Drug Discovery 3.pdf",
+      "refined_text": "Reliable Graph Neural Networks for Drug Discovery\nUnder Distributional Shift\nKehang Han \u2217\u2020\nGoogle Research\nkehanghan@google.com\nBalaji Lakshminarayanan\nGoogle Research\nbalajiln@google.com\nJeremiah Liu \u2020\nGoogle Research\njereliu@google.com\nAbstract\nThe concern of overcon\ufb01dent mispredictions under distributional shift demands\nextensive reliability research on Graph Neural Networks used in critical tasks\nin drug discovery. Here we \ufb01rst introduce CardioTox, a real-world benchmark\non drug cardiotoxici",
+      "page": 1
+    },
+    {
+      "document": "PDFs/Drug Discovery 4.pdf",
+      "refined_text": "Jiang\u00a0et\u00a0al. J Cheminform           (2021) 13:12  \nhttps://doi.org/10.1186/s13321-020-00479-8\nRESEARCH ARTICLE\nCould graph neural networks learn better \nmolecular representation for\u00a0drug discovery? \nA\u00a0comparison study of\u00a0descriptor\u2011based \nand\u00a0graph\u2011based models\nDejun\u00a0Jiang1,2,3\u2020, Zhenxing\u00a0Wu1\u2020, Chang\u2011Yu\u00a0Hsieh4, Guangyong\u00a0Chen5, Ben\u00a0Liao4, Zhe\u00a0Wang1, Chao\u00a0Shen1, \nDongsheng\u00a0Cao6*, Jian\u00a0Wu3* and\u00a0Tingjun\u00a0Hou1,2*\u200a\nAbstract\u2003\nGraph neural networks (GNN) has been considered as an attractive modelling me",
+      "page": 1
+    }
+  ]
+}

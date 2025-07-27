@@ -1,0 +1,11 @@
+{
+  "persona": "Chemistry Student",
+  "job": "Study and understand organic chemistry concepts and reactions",
+  "documents": [
+    "PDFs/Organic Chemistry 1.pdf",
+    "PDFs/Organic Chemistry 2.pdf",
+    "PDFs/Organic Chemistry 3.pdf",
+    "PDFs/Organic Chemistry 4.pdf",
+    "PDFs/Organic Chemistry 5.pdf"
+  ]
+} 

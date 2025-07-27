@@ -1,0 +1,180 @@
+{
+  "title": "Introduction",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "Introduction",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Cybersecurity",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "and",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Keyboard",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Navigation",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Keys",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Action",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Tab",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Shift+Tab",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Arrow",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Enter",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Spacebar",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Esc",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Component name and description",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "How it interacts",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Accordion",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Flipcard",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Hotgraphic",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Media",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Narrative",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Text",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Open",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "text",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "input",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Question",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "components",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Component name and description",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "How it interacts",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Fill in the blanks",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Graphical Multiple Choice Question",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Matching Question",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Multiple Choice Question",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Slider",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Stacker",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Yes/No",
+      "page": 7
+    }
+  ]
+}

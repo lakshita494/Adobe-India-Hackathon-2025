@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "input_documents": [
+      "PDFs/Organic Chemistry 1.pdf",
+      "PDFs/Organic Chemistry 2.pdf",
+      "PDFs/Organic Chemistry 3.pdf",
+      "PDFs/Organic Chemistry 4.pdf",
+      "PDFs/Organic Chemistry 5.pdf"
+    ],
+    "persona": "Chemistry Student",
+    "job": "Study and understand organic chemistry concepts and reactions",
+    "timestamp": "2025-07-27T10:38:30.337952"
+  },
+  "extracted_sections": [
+    {
+      "document": "PDFs/Organic Chemistry 1.pdf",
+      "page": 1,
+      "section_title": "Auto Section Title",
+      "importance_rank": 1
+    },
+    {
+      "document": "PDFs/Organic Chemistry 2.pdf",
+      "page": 1,
+      "section_title": "Auto Section Title",
+      "importance_rank": 1
+    },
+    {
+      "document": "PDFs/Organic Chemistry 3.pdf",
+      "page": 1,
+      "section_title": "Auto Section Title",
+      "importance_rank": 1
+    },
+    {
+      "document": "PDFs/Organic Chemistry 4.pdf",
+      "page": 1,
+      "section_title": "Auto Section Title",
+      "importance_rank": 1
+    },
+    {
+      "document": "PDFs/Organic Chemistry 5.pdf",
+      "page": 1,
+      "section_title": "Auto Section Title",
+      "importance_rank": 1
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "PDFs/Organic Chemistry 1.pdf",
+      "refined_text": "256\nchemistry\nOrganic Chemistry \u2013 Some Basic  \nPrinciples and Techniques\nAfter studying this unit, you will \nbe able to \n\u2022\t\nu n d e r s t a n d  r e a s o n s  f o r \ntetravalence of carbon and \nshapes of organic molecules; \n\u2022\t\nwrite structures of organic \nmolecules in various ways;\n\u2022\t\nclassify the organic compounds; \n\u2022\t\nname the compounds according \nto IUPAC system of nomenclature \nand also derive their structures \nfrom the given names;\n\u2022\t\nunderstand the concept of \norganic reaction mechanism;\n",
+      "page": 1
+    },
+    {
+      "document": "PDFs/Organic Chemistry 2.pdf",
+      "refined_text": "(2/94)(2-4,9/95)(7/97)(11,12/98)(1,9,11/99) \nNeuman \nChapter 3 \n \n \n0 \nChapter 3  \nHaloalkanes, Alcohols, Ethers, and Amines \n \nfrom \nOrganic Chemistry \nby \nRobert C. Neuman, Jr. \nProfessor of Chemistry, emeritus \nUniversity of California, Riverside \n \norgchembyneuman@yahoo.com \n<http://web.chem.ucsb.edu/~neuman/orgchembyneuman/> \n \nChapter Outline of the Book \n************************************************************************************** \nI.  Foundations  \n \n1. \nOrganic Molecules and Ch",
+      "page": 1
+    },
+    {
+      "document": "PDFs/Organic Chemistry 3.pdf",
+      "refined_text": "(2/94)(6,7,9/95)(8,9/97)(12/99)(1/00)   \nNeuman \nChapter 4 \n \n \n0 \nChapter 4  \nStereochemistry \n \nfrom \nOrganic Chemistry \nby \nRobert C. Neuman, Jr. \nProfessor of Chemistry, emeritus \nUniversity of California, Riverside \n \norgchembyneuman@yahoo.com \n<http://web.chem.ucsb.edu/~neuman/orgchembyneuman/> \n \nChapter Outline of the Book \n************************************************************************************** \nI.  Foundations  \n \n1. \nOrganic Molecules and Chemical Bonding \n \n2. \nAlkanes ",
+      "page": 1
+    },
+    {
+      "document": "PDFs/Organic Chemistry 4.pdf",
+      "refined_text": "(2/94)(1,2,8/95)(6,7/97)(10/98)(1,9-11/99) \nNeuman \nChapter 2 \n \n0 \n Chapter 2  \nAlkanes and Cycloalkanes \n \nfrom \nOrganic Chemistry \nby \nRobert C. Neuman, Jr. \nProfessor of Chemistry, emeritus \nUniversity of California, Riverside \n \norgchembyneuman@yahoo.com \n<http://web.chem.ucsb.edu/~neuman/orgchembyneuman/> \n \nChapter Outline of the Book \n************************************************************************************** \nI.  Foundations  \n \n1. \nOrganic Molecules and Chemical Bonding \n \n2",
+      "page": 1
+    },
+    {
+      "document": "PDFs/Organic Chemistry 5.pdf",
+      "refined_text": "(4,5,9,11,12/98)(1,9,10/99) \nNeuman \nChapter 1 \n \n \n0 \nChapter 1  \n Organic Molecules and Chemical Bonding \n \nfrom \nOrganic Chemistry \nby \nRobert C. Neuman, Jr. \nProfessor of Chemistry, emeritus \nUniversity of California, Riverside \n \norgchembyneuman@yahoo.com \n<http://web.chem.ucsb.edu/~neuman/orgchembyneuman/> \n \nChapter Outline of the Book \n************************************************************************************** \nI.  Foundations  \n \n1. \nOrganic Molecules and Chemical Bonding \n \n",
+      "page": 1
+    }
+  ]
+}

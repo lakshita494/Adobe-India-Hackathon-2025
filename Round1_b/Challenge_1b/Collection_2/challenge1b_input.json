@@ -1,0 +1,9 @@
+{
+  "persona": "Financial Analyst",
+  "job": "Analyze annual reports and financial performance data",
+  "documents": [
+    "PDFs/Annual Report 1.pdf",
+    "PDFs/Annual Report 2.pdf",
+    "PDFs/Annual Report 3.pdf"
+  ]
+} 
